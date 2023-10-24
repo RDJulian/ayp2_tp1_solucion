@@ -6,4 +6,5 @@ int main() {
     inventario.cargarInventario("SaveFile.csv");
     Menu::ejecutarMenu(inventario);
     inventario.guardarInventario("SaveFile.csv");
+    return 0;
 }
